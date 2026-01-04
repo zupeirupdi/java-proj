@@ -559,7 +559,7 @@ function renderAbout() {
             <h2>Zubeyr Abdiqani</h2>
             <div style="display: flex; gap: 10px; justify-content: center; margin-bottom: 30px;">
                 <span style="background: #f0f7ff; color: var(--main-color); padding: 6px 18px; border-radius: 30px; font-size: 0.9rem; border: 1px solid #e0f2fe;">ID: C6240348</span>
-                <span style="background: #f0f7ff; color: var(--main-color); padding: 6px 18px; border-radius: 30px; font-size: 0.9rem; border: 1px solid #e0f2fe;">Class: CS242</span>
+                <span style="background: #f0f7ff; color: var(--main-color); padding: 6px 18px; border-radius: 30px; font-size: 0.9rem; border: 1px solid #e0f2fe;">Class: CNS242</span>
             </div>
 
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; text-align: left; margin-top: 40px;">
