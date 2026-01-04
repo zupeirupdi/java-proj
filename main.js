@@ -465,7 +465,7 @@ function renderHeader() {
     return `
         <nav>
             <div class="container">
-                <div class="logo" onclick="switchPage('home')">Zubeyr<span>.Dev</span></div>
+                <div class="logo" onclick="switchPage('home')">Zubeyr<span></span></div>
                 
                 <div class="menu">
                     ${pages.map(p => `
@@ -488,13 +488,14 @@ function renderHeader() {
     `;
 }
 
+
 function renderHome() {
     return `
         <div style="text-align: center; margin-top: 50px;">
             <img src="WhatsApp Image 2025-10-18 at 12.01.34_3d4d2162.jpg" class="profile-img">
             <h2 style="color: var(--main-color);">Full Stack Developer</h2>
             <h1>Hello, I'm Zubeyr</h1>
-            <p>I build websites using JavaScript, HTML, and CSS.<br>Welcome to my portfolio.</p>
+            <p>I build websites using JavaScript Only.<br>Welcome to my portfolio.</p>
             
             <button class="btn" onclick="switchPage('assignment')">See My Work</button>
             <button class="btn btn-outline" onclick="switchPage('contact')">Contact Me</button>
