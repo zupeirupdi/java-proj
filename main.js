@@ -1,8 +1,3 @@
-// Student Portfolio Project
-// Name: Zubeyr Abdiqani
-// ID: C6240348
-
-
 const style = document.createElement('style');
 style.textContent = `
     body {
